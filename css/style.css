@@ -1,0 +1,133 @@
+:root {
+    --first-color: #233142;
+    --second-color: #36506C;
+    --blue-color: #2f3df8;
+    --green-color: #07b67e;
+    --yellow-color: #b3ae30;
+    --red-color: #e22f38;
+  }
+
+/* #main-header img {
+    width: 100%;
+    height: 100%;
+} */
+
+#main-header .port-item {
+    width: 30%;
+}
+
+.fab, .fas {
+    color: #fff;
+}
+
+.fab:hover {
+    color: #A5DEF1;
+}
+
+.bg-first {
+    background: var(--first-color);
+    color: #fff;
+}
+
+.bg-second {
+    background: var(--second-color);
+}
+
+
+.bg-blue {
+    background: var(--blue-color);
+}
+
+.bg-blue-alt {
+    background: var(--blue-color);
+}
+
+.bg-green {
+    background: var(--green-color);
+}
+
+.bg-green-alt {
+    background: var(--green-color);
+}
+
+.bg-yellow {
+    background: var(--yellow-color);
+}
+
+.bg-yellow-alt {
+    background: var(--yellow-color);
+}
+
+.bg-red {
+    background: var(--red-color);
+}
+
+.bg-red-alt {
+    background: var(--red-color);
+}
+
+.bg-blue:hover, .bg-green:hover, .bg-yellow:hover, .bg-red:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+span {
+    color: #fff;
+}
+
+.bg-img {
+    background-image: url(../img/Person\ V1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+
+.btn-footer {
+    border: solid 1px #fff;
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-footer:hover {
+    background: #A5DEF1;
+}
+
+#main-footer a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1099px) {
+    .port-item {
+        padding: 3rem !important;
+    }
+}
+
+@media (max-width: 767px) {
+    #main-header .img-small {
+        display: block !important;
+    }
+}
+
+
+
+
+
+
+
